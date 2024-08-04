@@ -67,9 +67,9 @@ class APIInterface:
         {"service": "nws",
         "data": search_query_coordinates}
         OR
-        openai_request : dict - e.g. {"model": "gpt-4o-mini", "role": "user", "content": "Compose a poem..."}
-        {"service": "openai",
-        "data": openai_request}
+        ai_request : dict - e.g. {"roll": "user", "model": "llama3-8b-8192", "content": "Compose a poem..."}
+        {"service": "ai",
+        "data": ai_request}
         OR
         {"service": "update_google_api_key",
         "data": api_key}
