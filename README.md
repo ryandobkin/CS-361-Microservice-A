@@ -41,7 +41,7 @@ dict_response_message = json.loads(decoded_response_message)
 At this point, dict_response_message will contain your response data. It will be formatted as follows:
 ```
 {"service": "ai", "request": {*request_ex*}, "response": "ex", "time_taken": 0.19}
-
+```
 ### UML Diagram:
 
 ![UML Diagram](http://github.com/ryandobkin/CS-361-Microservice-A/blob/main/Drawing3.png?raw=true)
